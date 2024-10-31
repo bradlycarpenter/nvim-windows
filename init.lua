@@ -6,3 +6,5 @@ vim.o.background = "dark"
 vim.cmd([[colorscheme gruvbox]])
 require("sins.smartsplits")
 require("sins.treesitter")
+require("sins.mason")
+require("sins.lsp")
